@@ -6,11 +6,11 @@ using namespace std;
 
 void print_median(priority_queue<int>& max_heap, priority_queue<int, vector<int>, greater<int>>& min_heap) {
     if (max_heap.size() > min_heap.size()) {
-        cout << max_heap.top() << endl;
+        cout <<"median is: "<< max_heap.top() << endl;
     } else if (max_heap.size() < min_heap.size()) {
-        cout << min_heap.top() << endl;
+        cout <<"median is: "<< min_heap.top() << endl;
     } else {
-        cout << (max_heap.top() + min_heap.top()) / 2.0 << endl;
+        cout <<"median is: "<< (max_heap.top() + min_heap.top()) / 2.0 << endl;
     }
 }
 

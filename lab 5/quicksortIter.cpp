@@ -65,7 +65,7 @@ for (int i = 0; i < size; i++) {
 return arr;}
 
 int main() {
-     //int n = arr.size();
+
     int n;
     cout << "Enter the length of the array: ";
     cin >> n;

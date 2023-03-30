@@ -53,8 +53,6 @@ return arr;}
 
 
 int main() {
-    //vector<int> arr = { 10, 7, 8, 9, 1, 5 };
-    //int n = arr.size();
     int n;
     cout << "Enter the length of the array: ";
     cin >> n;
@@ -68,8 +66,8 @@ int main() {
     double duration_sec = duration.count() / 1000000.0; 
 
 
-    //cout << "Sorted array: \n";
-    //printArray(arr, n);
+    cout << "Sorted array: \n";
+    printArray(arr, n);
     cout << "Time taken by quicksort: " << fixed << setprecision(6) << duration_sec << " seconds" << endl;
 
 
