@@ -10,7 +10,7 @@ void print_median(priority_queue<int>& max_heap, priority_queue<int, vector<int>
     } else if (max_heap.size() < min_heap.size()) {
         cout <<"median is: "<< min_heap.top() << endl;
     } else {
-        cout <<"median is: "<< (max_heap.top() + min_heap.top()) / 2.0 << endl;
+        cout << (max_heap.top() + min_heap.top()) / 2.0 << endl;
     }
 }
 
